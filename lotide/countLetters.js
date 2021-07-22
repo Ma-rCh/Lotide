@@ -29,15 +29,17 @@ const assertEqual = function(actual, expected) {
   //return oarr;
   for (const iterator of str) {
     //if () keyof exists
-
+ if (iterator != ' '){
     if (Ob[iterator]=== undefined) {
       Ob[iterator]=1;
     } else {
       Ob[iterator] += 1;
     }
+   }
   }
   return Ob;
  }
   //TEST
-  console.log(countLetters("hello"))
+  console.log(countLetters("lighthouse in the house"))
+  //console.log(countLetters("hello"))
 //assertArraysEqual(words, ["hello", "world", "lighthouse"]);
