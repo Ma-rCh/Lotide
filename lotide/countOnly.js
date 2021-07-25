@@ -14,12 +14,7 @@ const assertEqual = function(actual, expected) {
     for (const iterator of arr) {
       if (Ob[iterator]){
         Ob1[iterator] = (Ob1[iterator] || 0) + 1; 
-        /*
-      if ( Ob1[iterator] === undefined) {
-        Ob1[iterator]=1;
-      } else {
-        Ob1[iterator] += 1;
-      }*/
+    
     }
   }
     return Ob1;
